@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 50px auto;
+    height: 600px;
+    width: 600px;
+    
+}
+
+.main .board {
+    margin: 0 auto;;
+    width: 400px;
+    height: 400px;
+    border: 10px solid brown;
+    border-radius: 20px;
+    background-image: url(pexels-pixabay-301717.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.main .board .overlay {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 217, 0, 0.463);
+}
+
+.main .board .blackpoke {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: rgb(103,103,103);
+    background: -moz-radial-gradient(circle, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#676767",endColorstr="#000000",GradientType=1);
+}
+.main .board .poke1{
+    top: 0px;
+}
+.main .board .poke2{
+    top: 95%;
+}
+.main .board .poke3{
+    right: 0;
+}
+.main .board .poke4{
+    bottom: 0;
+    right: 0;
+}
+.main .board .circle{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border: 2px solid brown;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    transform: translate(-50%,-50%);  
+    position: relative; 
+}
+.circle img{
+    position: absolute;
+    width: 125px;
+    right: .7em;
+    top: 11px;
+    
+}
+.main .board .cont1{
+    height: 20px;
+    width: 230px;
+    border: 1px solid;
+    position: absolute;
+    top: 53px;
+    right: 21%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.minicircle{
+    
+    height: 20px;
+    width: 20px;
+    border: 1px solid brown;
+    border-radius: 100%;
+    background-color: rgba(165, 42, 42, 0.281);
+}
+.main .board .cont2{
+    height: 20px;
+    width: 230px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 53px;
+    right: 21%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .board .cont3{
+    height: 230px;
+    width: 20px;
+    border: 1px solid;
+    position: absolute;
+    top: 85px;
+    right: 15%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.main .board .cont4{
+    height: 230px;
+    width: 20px;
+    border: 1px solid;
+    position: absolute;
+    top: 85px;
+    left: 15%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
