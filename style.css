@@ -16,7 +16,7 @@
     height: 400px;
     border: 10px solid brown;
     border-radius: 20px;
-    background-image: url(pexels-pixabay-301717.jpg);
+    background-color:  rgb(244, 213, 170);
     background-size: cover;
     background-position: center;
     position: relative;
